@@ -1,0 +1,167 @@
+@import url(about.css) all;
+body{
+    background-image: radial-gradient(rgb(240, 125, 125),rgb(175, 175, 245));
+}
+header {
+/* z-index: -3; */
+position: sticky;
+}
+#nav {
+    background-color: hsla(352, 88%, 55%, 0.7);
+    height:60px;
+}
+#nav .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    padding: 45px -455px 5px 345px;
+}
+
+#nav img {
+    height: 45px;
+    height: -60px;
+    margin: 8px 545px 15px 45px;
+    border-radius: 120px;
+}
+
+#nav li {
+    margin-top: 20px;
+    font-weight: bolder;
+}
+.active {
+    color: rgb(0, 255, 42);
+    text-decoration: none;
+} 
+a:hover{
+    color: rgb(83, 80, 255);
+    background-color: aqua;
+} 
+.intro{
+    background-color: rgb(143, 240, 240);
+    margin: -34px 230px 0px 230px;
+    border-radius: 12%;
+}
+.intro H1{
+     text-align: center;
+     font-size: calc(+55px);
+     padding-bottom: -134px;
+}
+.intro H5{
+    text-align: center;
+    font-size: calc(+35px);
+    padding-top: -56px;
+}
+#about_me {
+    padding: 20px 150px 0px 150px;
+}
+#about_me b {
+     font-size: calc(+80px);
+     padding: 230px;  
+     padding-bottom: 0px; 
+}
+#about_me span {
+    font-size: calc(+20px);
+    text-align: justify;
+    margin: 430px;  
+    margin: 0px;  
+    line-height: 45px;
+    word-spacing: +2px;
+    direction: rtl;
+    line-height: -5%;
+    font-size: 35px;
+    font-style: italic;
+    font-family:cursive;
+}
+h1.Photos {
+    text-align: center;
+    font-size: 800%;
+}
+#image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#image img {
+    padding-bottom: 34px;
+}
+.footer h1 {
+    margin-left: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: cal(+63px);
+}
+.footer form {
+    margin-left: 583px;
+    margin-top: -58px;
+    font-size: 33px
+}
+.footer form input {
+    font-size: 33px;
+    background-color: aqua;
+    color: red;
+    border-radius: 20%;
+    border: 2px solid blue;
+}
+.footer form button {
+ height: 56px;
+ background-color: chartreuse;
+ border: 2px solid black;
+ border-radius: 10%;
+ margin-top: -10px;
+}
+#footer2 {
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:900;
+    font-style: normal;
+    font-size: calc(+94px);
+    color: chartreuse;
+}
+#container {
+    background-image: linear-gradient(to right, rgb(114, 231, 144) , rgb(104, 133, 231), rgb(241, 84, 84), rgb(238, 204, 50));
+    height: 300px;
+    color: black;
+    outline: 8px solid rgb(114, 241, 241);
+    margin: 0px;
+    border: 2px dotted rgb(39, 38, 38);
+    padding-left: 16px;
+}
+
+#container H1 {
+    font-weight: 800;
+    font-size: +53px;
+    margin-top: 5px;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+}
+.points div {
+    padding-right: 323px;
+    padding-left: 34px;
+    line-height: 33px;
+}
+
+.points form {
+    padding-left: -70px;
+}
+.points input {
+height: 42px;
+border: 1px dashed blue;
+}
+.points form {
+    
+    font-size: 35px;
+    margin-top: 12px;
+}
+#emailspan {
+  margin-top: 45px ;
+  line-height: 56px;
+}
+
+/* #address {
+    color: 
+} */

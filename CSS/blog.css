@@ -1,0 +1,49 @@
+
+
+ @keyframes Blog {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+#animationB {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: Blog;
+    animation-delay: 1s;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+  } 
+
+
+#blogimage {
+  height: 800px;
+  width: fit-content;
+  box-sizing: border-box;
+  margin: 45px;
+}
+
+#display {
+  /* background-color: black; */
+  height: 700px;
+  width: 900px;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-bottom: 40px;
+}
+
+#todisplay {
+  border: 2px ridge white;
+  width: auto;
+  height: auto;
+  margin: 34px;
+}
+
+
+#todisplay img {
+  height: 230px;
+  width: 150px;
+  border: 2px ridge white;
+  margin: 2px;
+}
+

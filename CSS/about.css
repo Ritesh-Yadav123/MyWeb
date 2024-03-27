@@ -1,0 +1,57 @@
+#address {
+    font-size: 34px;
+    color: black !important;
+    text-transform: uppercase;
+    margin-left: 134px;
+    margin-top: 134px;
+    margin-right: 134px;
+    border: 1px solid red;
+    box-shadow: 2px 2px 10px green;
+}
+
+#addEmail {
+    text-transform: none;
+}
+
+#skill {
+    border: 1px ridge brown;
+    box-sizing: border-box;
+    margin: 250px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 45px;
+    box-shadow: 2px 5px 10px white;
+}
+#skill H1 {
+    font-size: 75px;
+    text-align: center;
+}
+
+#skill li {
+    font-size: 56px;
+    text-shadow: 1px 2px 5px green;
+    list-style-type: circle;
+}
+
+#skill li::marker{
+    color: aqua;
+}
+
+#animation {
+    background-color: rgb(215, 241, 95);
+    height: auto;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 45px;
+    font-size: 34px;
+    font-weight: 800;
+    text-shadow: 1px 2px 5px green;
+    transform: translate(45px,5px);
+    transition: width 2s, height 2s, transform 2s;
+    transition-duration:10s;
+    border: 2px ridge red;
+    box-shadow: 2px 2px 10px black;
+}
